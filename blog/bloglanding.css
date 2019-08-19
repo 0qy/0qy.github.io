@@ -1,0 +1,53 @@
+* {
+    color: white;
+    /*border: solid 1px white;*/
+}
+
+
+
+body {
+    background-color: black;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: "Rubik mono one", sans-serif;
+}
+
+body h1 {
+    text-align: center;
+    text-decoration-line: line-through;
+    padding: 300px, 300px, 10px, 300px;
+    text-shadow: 15px 15px 15px yellowgreen;
+}
+
+.blogLinks {
+    background-image: url("../images/WenHua.jpg");
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+p{
+    font-family: "Rubik mono one", monospace;
+}
+
+a {
+    border: ridge 5px yellow;
+    padding: 30px;
+}
+
+.link {
+    font-size: 30px;
+    color: white;
+    text-shadow: 0 0 0 yellowgreen;
+    padding: 20px;
+    text-decoration-line: none;
+   
+}
+
+.link:hover {
+    text-shadow: 30px 30px 30px yellowgreen;
+    text-decoration-line: line-through;
+    transition: text-shadow 2s ease-out 2s, text-decoration-line 1s ease in;
+
+}

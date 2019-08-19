@@ -3,6 +3,10 @@
     /*border: solid 1px white;*/
 }
 
+ul { 
+    padding:0;
+    margin: 0;
+} 
 
 
 body {
@@ -10,8 +14,13 @@ body {
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 30px;
     font-family: "Rubik mono one", sans-serif;
+}
+
+h2 {
+    font-family: "Rubik mono one", monospace;
+    padding: 10px;
 }
 
 body h1 {
@@ -21,33 +30,90 @@ body h1 {
     text-shadow: 15px 15px 15px yellowgreen;
 }
 
-.blogLinks {
-    background-image: url("../images/WenHua.jpg");
+/* BIG DIV*/
+
+div.mother {
     display: inline-flex;
-    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    width: 100%;
+    margin-top: 50px;
 }
 
+div.bloglinks {
+    background-size: cover;
+    width: 70%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex: auto;
+    justify-content: space-around;
+}
+
+section.tech {
+    border-bottom: solid 2px yellow;
+    display: inline-flex;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+
+section.core {
+    display: inline-flex;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+
+section h2 {
+    width: 100%;
+}
+
+div.stickers {
+    width: 30%;
+}
 p{
     font-family: "Rubik mono one", monospace;
+    width
 }
 
 a {
-    border: ridge 5px yellow;
+    border: dotted 2px yellow;
     padding: 30px;
 }
 
 .link {
-    font-size: 30px;
+    font-size: 15px;
     color: white;
     text-shadow: 0 0 0 yellowgreen;
-    padding: 20px;
+    padding: 5px;
+    margin: 10px;
     text-decoration-line: none;
    
 }
 
 .link:hover {
-    text-shadow: 30px 30px 30px yellowgreen;
+    text-shadow: 10px 5px 5px yellowgreen;
     text-decoration-line: line-through;
     transition: text-shadow 2s ease-out 2s, text-decoration-line 1s ease in;
 
+}
+
+
+/*STICEKRS*/
+
+#fire {
+    height: 50px;
+}
+
+#lightning {
+    /*height: 500px;
+    width: auto;
+    margin: -168px -264px*/
+}
+
+#stars {
+    width: 50px;
+    margin-top: 10px;
+}
+
+#cloudleft {
 }
