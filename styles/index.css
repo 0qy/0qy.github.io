@@ -3,6 +3,10 @@
     /*border: solid 1px white;*/
 }
 
+html {
+    font-size: 16px;
+}
+
 ul { 
     padding:0;
     margin: 0;
@@ -28,7 +32,27 @@ body h1 {
     text-decoration-line: line-through;
     padding: 300px, 300px, 10px, 300px;
     text-shadow: 15px 15px 15px yellowgreen;
+    float: left;
+    position: fixed;
 }
+
+nav {
+    width: 100%;
+    padding: 2em;
+}
+
+nav ul{
+    display: inline-flex;
+    flex-direction: row;
+    float: right;
+    list-style: none;
+}
+
+nav ul li{
+    padding-top: 0;
+    padding-right: 3em;
+}
+
 
 /* BIG DIV*/
 
@@ -37,7 +61,7 @@ div.mother {
     flex-direction: row-reverse;
     justify-content: flex-end;
     width: 100%;
-    margin-top: 50px;
+    font-size: 20px;
 }
 
 div.bloglinks {
@@ -54,38 +78,39 @@ section.tech {
     border-bottom: solid 2px yellow;
     display: inline-flex;
     flex-wrap: wrap;
-    padding: 40px;
+    justify-content: space-around;
+    padding: 1em 2em 7em 2em;
 }
 
 section.core {
     display: inline-flex;
     flex-wrap: wrap;
-    padding: 40px;
+    justify-content: space-around;
 }
 
 section h2 {
     width: 100%;
+    margin-bottom: 5em;
+    margin-top: 1em;
 }
 
 div.stickers {
     width: 30%;
 }
-p{
+section p{
     font-family: "Rubik mono one", monospace;
     width
 }
 
-a {
+div.mother a {
     border: dotted 2px yellow;
-    padding: 30px;
+    padding: 7em;
 }
 
 .link {
-    font-size: 15px;
+    font-size: 0.75em;
     color: white;
     text-shadow: 0 0 0 yellowgreen;
-    padding: 5px;
-    margin: 10px;
     text-decoration-line: none;
    
 }
