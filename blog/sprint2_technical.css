@@ -99,8 +99,9 @@ img.mainimage {
 
 div.blogcontent p{
     width: auto;
-    margin: 1em 3em 1em 3em;
+    margin: 1em 5em 1em 5em;
     font-family: monospace;
+    font-size: 16px;
 }
 
 div.stickers {
