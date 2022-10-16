@@ -1,3 +1,1 @@
-/data/possom2014.json filter=lfs diff=lfs merge=lfs -text
-possom2014.json filter=lfs diff=lfs merge=lfs -text
-*.json filter=lfs diff=lfs merge=lfs -text
+data/possom2014.json filter=lfs diff=lfs merge=lfs -text
